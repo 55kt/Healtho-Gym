@@ -6,17 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4B5625B62E6A16380025F8A6 /* Healtho_GymApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5625B32E6A16380025F8A6 /* Healtho_GymApp.swift */; };
+		4B5625C02E6A168C0025F8A6 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5625BF2E6A168C0025F8A6 /* OnboardingScreen.swift */; };
+		4B5625C22E6A16C00025F8A6 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5625C12E6A16C00025F8A6 /* Launch Screen.storyboard */; };
+		4B5625C42E6A17580025F8A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B5625C32E6A17580025F8A6 /* Assets.xcassets */; };
+		4B5625CA2E6A17CF0025F8A6 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B5625C72E6A17CF0025F8A6 /* Poppins-Medium.ttf */; };
+		4B5625CB2E6A17CF0025F8A6 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B5625C52E6A17CF0025F8A6 /* Poppins-Bold.ttf */; };
+		4B5625CC2E6A17CF0025F8A6 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B5625C82E6A17CF0025F8A6 /* Poppins-Regular.ttf */; };
+		4B5625CD2E6A17CF0025F8A6 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B5625C92E6A17CF0025F8A6 /* Poppins-SemiBold.ttf */; };
+		4B5625CE2E6A17CF0025F8A6 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B5625C62E6A17CF0025F8A6 /* Poppins-Light.ttf */; };
+		4B5625D12E6A18BC0025F8A6 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5625D02E6A18BC0025F8A6 /* UIExtension.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		4B5625A22E6A15AF0025F8A6 /* Healtho Gym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Healtho Gym.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5625B32E6A16380025F8A6 /* Healtho_GymApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Healtho_GymApp.swift; sourceTree = "<group>"; };
+		4B5625BF2E6A168C0025F8A6 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
+		4B5625C12E6A16C00025F8A6 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4B5625C32E6A17580025F8A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B5625C52E6A17CF0025F8A6 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		4B5625C62E6A17CF0025F8A6 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		4B5625C72E6A17CF0025F8A6 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		4B5625C82E6A17CF0025F8A6 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		4B5625C92E6A17CF0025F8A6 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		4B5625CF2E6A18070025F8A6 /* Healtho-Gym-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Healtho-Gym-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4B5625D02E6A18BC0025F8A6 /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		4B5625A42E6A15AF0025F8A6 /* Healtho Gym */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Healtho Gym";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4B56259F2E6A15AF0025F8A6 /* Frameworks */ = {
@@ -32,7 +48,7 @@
 		4B5625992E6A15AF0025F8A6 = {
 			isa = PBXGroup;
 			children = (
-				4B5625A42E6A15AF0025F8A6 /* Healtho Gym */,
+				4B5625B42E6A16380025F8A6 /* Healtho Gym */,
 				4B5625A32E6A15AF0025F8A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +59,88 @@
 				4B5625A22E6A15AF0025F8A6 /* Healtho Gym.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4B5625B42E6A16380025F8A6 /* Healtho Gym */ = {
+			isa = PBXGroup;
+			children = (
+				4B5625CF2E6A18070025F8A6 /* Healtho-Gym-Info.plist */,
+				4B5625BC2E6A166B0025F8A6 /* Screen */,
+				4B5625BB2E6A16620025F8A6 /* Model */,
+				4B5625BA2E6A165B0025F8A6 /* ViewModel */,
+				4B5625B92E6A16530025F8A6 /* UICommon */,
+				4B5625B82E6A164D0025F8A6 /* Common */,
+				4B5625B72E6A163D0025F8A6 /* Fonts */,
+				4B5625C32E6A17580025F8A6 /* Assets.xcassets */,
+				4B5625B32E6A16380025F8A6 /* Healtho_GymApp.swift */,
+				4B5625C12E6A16C00025F8A6 /* Launch Screen.storyboard */,
+			);
+			path = "Healtho Gym";
+			sourceTree = "<group>";
+		};
+		4B5625B72E6A163D0025F8A6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4B5625C52E6A17CF0025F8A6 /* Poppins-Bold.ttf */,
+				4B5625C62E6A17CF0025F8A6 /* Poppins-Light.ttf */,
+				4B5625C72E6A17CF0025F8A6 /* Poppins-Medium.ttf */,
+				4B5625C82E6A17CF0025F8A6 /* Poppins-Regular.ttf */,
+				4B5625C92E6A17CF0025F8A6 /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4B5625B82E6A164D0025F8A6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4B5625B92E6A16530025F8A6 /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				4B5625D02E6A18BC0025F8A6 /* UIExtension.swift */,
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
+		4B5625BA2E6A165B0025F8A6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4B5625BB2E6A16620025F8A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B5625BC2E6A166B0025F8A6 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				4B5625BE2E6A16770025F8A6 /* Login */,
+				4B5625BD2E6A16710025F8A6 /* Home */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		4B5625BD2E6A16710025F8A6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4B5625BE2E6A16770025F8A6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4B5625BF2E6A168C0025F8A6 /* OnboardingScreen.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +157,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				4B5625A42E6A15AF0025F8A6 /* Healtho Gym */,
 			);
 			name = "Healtho Gym";
 			packageProductDependencies = (
@@ -109,6 +204,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B5625C22E6A16C00025F8A6 /* Launch Screen.storyboard in Resources */,
+				4B5625CA2E6A17CF0025F8A6 /* Poppins-Medium.ttf in Resources */,
+				4B5625CB2E6A17CF0025F8A6 /* Poppins-Bold.ttf in Resources */,
+				4B5625CC2E6A17CF0025F8A6 /* Poppins-Regular.ttf in Resources */,
+				4B5625CD2E6A17CF0025F8A6 /* Poppins-SemiBold.ttf in Resources */,
+				4B5625CE2E6A17CF0025F8A6 /* Poppins-Light.ttf in Resources */,
+				4B5625C42E6A17580025F8A6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B5625C02E6A168C0025F8A6 /* OnboardingScreen.swift in Sources */,
+				4B5625D12E6A18BC0025F8A6 /* UIExtension.swift in Sources */,
+				4B5625B62E6A16380025F8A6 /* Healtho_GymApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,11 +361,12 @@
 				DEVELOPMENT_TEAM = QT3T249ZHN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Healtho-Gym-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -284,11 +390,12 @@
 				DEVELOPMENT_TEAM = QT3T249ZHN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Healtho-Gym-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
