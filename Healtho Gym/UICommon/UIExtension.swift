@@ -35,7 +35,7 @@ extension CGFloat {
         // 375 * 0.5  // 50 % width return
     }
     
-    static func heigthPer(per: Double) -> Double {
+    static func heightPer(per: Double) -> Double {
         return screenHeigth * per
         // 375 * 0.5  // 50 % heigth return
     }
