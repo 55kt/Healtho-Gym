@@ -17,6 +17,9 @@
 		4B5625CD2E6A17CF0025F8A6 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B5625C92E6A17CF0025F8A6 /* Poppins-SemiBold.ttf */; };
 		4B5625CE2E6A17CF0025F8A6 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B5625C62E6A17CF0025F8A6 /* Poppins-Light.ttf */; };
 		4B5625D12E6A18BC0025F8A6 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5625D02E6A18BC0025F8A6 /* UIExtension.swift */; };
+		4B5625E82E6C7A840025F8A6 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5625E72E6C7A840025F8A6 /* SignUpScreen.swift */; };
+		4B5625EA2E6C80B90025F8A6 /* MobileNumberScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5625E92E6C80B90025F8A6 /* MobileNumberScreen.swift */; };
+		4B5625EE2E6C89200025F8A6 /* OTPScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5625ED2E6C89200025F8A6 /* OTPScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		4B5625C92E6A17CF0025F8A6 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		4B5625CF2E6A18070025F8A6 /* Healtho-Gym-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Healtho-Gym-Info.plist"; sourceTree = SOURCE_ROOT; };
 		4B5625D02E6A18BC0025F8A6 /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		4B5625E72E6C7A840025F8A6 /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
+		4B5625E92E6C80B90025F8A6 /* MobileNumberScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNumberScreen.swift; sourceTree = "<group>"; };
+		4B5625ED2E6C89200025F8A6 /* OTPScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +145,9 @@
 			isa = PBXGroup;
 			children = (
 				4B5625BF2E6A168C0025F8A6 /* OnboardingScreen.swift */,
+				4B5625E72E6C7A840025F8A6 /* SignUpScreen.swift */,
+				4B5625E92E6C80B90025F8A6 /* MobileNumberScreen.swift */,
+				4B5625ED2E6C89200025F8A6 /* OTPScreen.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -223,7 +232,10 @@
 			files = (
 				4B5625C02E6A168C0025F8A6 /* OnboardingScreen.swift in Sources */,
 				4B5625D12E6A18BC0025F8A6 /* UIExtension.swift in Sources */,
+				4B5625EA2E6C80B90025F8A6 /* MobileNumberScreen.swift in Sources */,
 				4B5625B62E6A16380025F8A6 /* Healtho_GymApp.swift in Sources */,
+				4B5625E82E6C7A840025F8A6 /* SignUpScreen.swift in Sources */,
+				4B5625EE2E6C89200025F8A6 /* OTPScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -152,6 +152,14 @@ extension View {
         UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
     }
     
+    func bgNavLink(content: some View, isAction: Binding<Bool>) -> some View {
+        return self.background(
+            NavigationLink(destination: content, isActive: isAction, label: {
+                EmptyView()
+            })
+        )
+    }
+    
     var navHide: some View {
         return navigationTitle("")
             .navigationBarBackButtonHidden()
@@ -166,7 +174,7 @@ extension View {
             .ignoresSafeArea()
     }
     
-    var maxConter: some View {
+    var maxCenter: some View {
         return frame(maxWidth: .infinity, alignment: .center)
     }
     

@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct OnboardingScreen: View {
-    
+    //MARK: - Properties
     @State private var showSignUp: Bool = false
     @State private var selectPage: Int = 0
-    
+        
     @State private var pageArr: Array = [
         [
             "title": "Exercises",
@@ -28,20 +28,15 @@ struct OnboardingScreen: View {
          "image": "in_3"],
     ]
     
-    
+    //MARK: - Body
     var body: some View {
         ZStack(alignment: .center){
-            
             TabView(selection: $selectPage.animation()) {
-                
-                
+                // Page center content
                 ForEach(0 ..< pageArr.count, id: \.self) {
                     index in
-                    
                     var iObj = pageArr[index]
-                    
                     VStack{
-                            
                         Spacer()
                             
                         Text( iObj["title"] ?? "" )
@@ -61,35 +56,28 @@ struct OnboardingScreen: View {
                         .frame(width: .screenWidth , height: .screenWidth, alignment: .center)
                             
                         Spacer()
-                        
                     }
-                    
-                    
                 }
-                
-                
             }
             .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
             .overlay( HStack(spacing: 8) {
-                    
                 ForEach( 0 ..< pageArr.count, id: \.self) {
                     index in
                     
+                    // Bottom selected page indicator
                     Capsule()
                         .fill(selectPage == index ? Color.primaryApp  : Color.inActive )
                         .frame(width: 8, height: 8)
                 }
-                
             }.padding(.bottom, .heightPer(per: 0.2)) , alignment: .bottom)
             
             VStack{
-                
                 HStack{
-                        
                     Spacer()
                     
+                    // Skip Button
                     Button(action: {
-                        
+                        // action
                     }, label: {
                         Text("Skip")
                             .font(.customfont(.light, fontSize: 12))
@@ -99,12 +87,11 @@ struct OnboardingScreen: View {
                     .foregroundColor(.secondaryText)
                     .background( Color.txtBG )
                     .overlay( RoundedRectangle(cornerRadius: 25.0).stroke(Color.board, lineWidth: 1) )
-                    
                 }
                 
                 Spacer()
                 
-                
+                // NEXT Button
                 Button(action: {
                     showSignUp = true
                 }, label: {
@@ -122,10 +109,14 @@ struct OnboardingScreen: View {
             .bottomWithSafe
             
         }
+        .bgNavLink(content: SignUpScreen(), isAction: $showSignUp)
         .navHide
     }
 }
 
+//MARK: - Preview
 #Preview {
-    OnboardingScreen()
+    NavigationView {
+        OnboardingScreen()
+    }
 }
