@@ -9,6 +9,8 @@ import SwiftUI
 
 struct OTPScreen: View {
     //MARK: - Properties
+    @Environment(\.dismiss) private var dismiss
+    
     @State private var txtOTP: String = "1234"
     @State private var showName: Bool = false
     
@@ -79,7 +81,7 @@ struct OTPScreen: View {
 
                     HStack {
                         Button {
-                            // action
+                            dismiss()
                         } label: {
                             Text("Change Number")
                                 .font(.customfont(.regular, fontSize: 12))
@@ -109,7 +111,7 @@ struct OTPScreen: View {
                 .bottomWithSafe
             }
         }
-        .bgNavLink(content: OTPScreen(), isAction: $showName)
+        .bgNavLink(content: NameScreen(), isAction: $showName)
         .navHide
     }
 }
