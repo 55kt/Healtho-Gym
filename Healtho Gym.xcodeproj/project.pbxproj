@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B04FCE82E734FCE0032C428 /* ReminderScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B04FCE72E734FCE0032C428 /* ReminderScreen.swift */; };
+		4B04FCEA2E734FE10032C428 /* NotificationsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B04FCE92E734FE10032C428 /* NotificationsScreen.swift */; };
 		4B5625B62E6A16380025F8A6 /* Healtho_GymApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5625B32E6A16380025F8A6 /* Healtho_GymApp.swift */; };
 		4B5625C02E6A168C0025F8A6 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5625BF2E6A168C0025F8A6 /* OnboardingScreen.swift */; };
 		4B5625C22E6A16C00025F8A6 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5625C12E6A16C00025F8A6 /* Launch Screen.storyboard */; };
@@ -28,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B04FCE72E734FCE0032C428 /* ReminderScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderScreen.swift; sourceTree = "<group>"; };
+		4B04FCE92E734FE10032C428 /* NotificationsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsScreen.swift; sourceTree = "<group>"; };
 		4B5625A22E6A15AF0025F8A6 /* Healtho Gym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Healtho Gym.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B5625B32E6A16380025F8A6 /* Healtho_GymApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Healtho_GymApp.swift; sourceTree = "<group>"; };
 		4B5625BF2E6A168C0025F8A6 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
@@ -61,6 +65,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B04FCE52E734FAA0032C428 /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				4B04FCE72E734FCE0032C428 /* ReminderScreen.swift */,
+			);
+			path = Reminder;
+			sourceTree = "<group>";
+		};
+		4B04FCE62E734FB20032C428 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				4B04FCE92E734FE10032C428 /* NotificationsScreen.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
 		4B5625992E6A15AF0025F8A6 = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +167,8 @@
 		4B5625BD2E6A16710025F8A6 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				4B04FCE62E734FB20032C428 /* Notifications */,
+				4B04FCE52E734FAA0032C428 /* Reminder */,
 				4B5625F52E6DD2300025F8A6 /* Settings */,
 			);
 			path = Home;
@@ -254,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B5625F02E6CBD730025F8A6 /* NameScreen.swift in Sources */,
+				4B04FCEA2E734FE10032C428 /* NotificationsScreen.swift in Sources */,
 				4B5625F72E6DD2450025F8A6 /* SettingsScreen.swift in Sources */,
 				4B5625C02E6A168C0025F8A6 /* OnboardingScreen.swift in Sources */,
 				4B5625D12E6A18BC0025F8A6 /* UIExtension.swift in Sources */,
@@ -262,6 +285,7 @@
 				4B5625B62E6A16380025F8A6 /* Healtho_GymApp.swift in Sources */,
 				4B5625E82E6C7A840025F8A6 /* SignUpScreen.swift in Sources */,
 				4B5626102E71C44C0025F8A6 /* SettingsRow.swift in Sources */,
+				4B04FCE82E734FCE0032C428 /* ReminderScreen.swift in Sources */,
 				4B5625F42E6DCA080025F8A6 /* GoalScreen.swift in Sources */,
 				4B5625EE2E6C89200025F8A6 /* OTPScreen.swift in Sources */,
 			);
