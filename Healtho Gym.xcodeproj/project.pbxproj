@@ -27,6 +27,8 @@
 		4B5625F72E6DD2450025F8A6 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5625F62E6DD2450025F8A6 /* SettingsScreen.swift */; };
 		4B5626102E71C44C0025F8A6 /* SettingsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B56260F2E71C44C0025F8A6 /* SettingsRow.swift */; };
 		4B5626122E71C45A0025F8A6 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5626112E71C45A0025F8A6 /* ProfileScreen.swift */; };
+		4BBD2E3B2E7F052200E246F6 /* TopTabViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD2E3A2E7F052200E246F6 /* TopTabViewScreen.swift */; };
+		4BBD2E3E2E7F053B00E246F6 /* HealthTipTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD2E3D2E7F053B00E246F6 /* HealthTipTabScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		4B5625F62E6DD2450025F8A6 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
 		4B56260F2E71C44C0025F8A6 /* SettingsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRow.swift; sourceTree = "<group>"; };
 		4B5626112E71C45A0025F8A6 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		4BBD2E3A2E7F052200E246F6 /* TopTabViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTabViewScreen.swift; sourceTree = "<group>"; };
+		4BBD2E3D2E7F053B00E246F6 /* HealthTipTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTipTabScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,7 @@
 		4B5625BD2E6A16710025F8A6 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				4BBD2E392E7F050800E246F6 /* TopTabView */,
 				4B04FCE62E734FB20032C428 /* Notifications */,
 				4B04FCE52E734FAA0032C428 /* Reminder */,
 				4B5625F52E6DD2300025F8A6 /* Settings */,
@@ -195,6 +200,23 @@
 				4B5626112E71C45A0025F8A6 /* ProfileScreen.swift */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		4BBD2E392E7F050800E246F6 /* TopTabView */ = {
+			isa = PBXGroup;
+			children = (
+				4BBD2E3C2E7F052700E246F6 /* HealthTip */,
+				4BBD2E3A2E7F052200E246F6 /* TopTabViewScreen.swift */,
+			);
+			path = TopTabView;
+			sourceTree = "<group>";
+		};
+		4BBD2E3C2E7F052700E246F6 /* HealthTip */ = {
+			isa = PBXGroup;
+			children = (
+				4BBD2E3D2E7F053B00E246F6 /* HealthTipTabScreen.swift */,
+			);
+			path = HealthTip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +299,7 @@
 			files = (
 				4B5625F02E6CBD730025F8A6 /* NameScreen.swift in Sources */,
 				4B04FCEA2E734FE10032C428 /* NotificationsScreen.swift in Sources */,
+				4BBD2E3B2E7F052200E246F6 /* TopTabViewScreen.swift in Sources */,
 				4B5625F72E6DD2450025F8A6 /* SettingsScreen.swift in Sources */,
 				4B5625C02E6A168C0025F8A6 /* OnboardingScreen.swift in Sources */,
 				4B5625D12E6A18BC0025F8A6 /* UIExtension.swift in Sources */,
@@ -288,6 +311,7 @@
 				4B04FCE82E734FCE0032C428 /* ReminderScreen.swift in Sources */,
 				4B5625F42E6DCA080025F8A6 /* GoalScreen.swift in Sources */,
 				4B5625EE2E6C89200025F8A6 /* OTPScreen.swift in Sources */,
+				4BBD2E3E2E7F053B00E246F6 /* HealthTipTabScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
