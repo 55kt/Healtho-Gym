@@ -29,6 +29,7 @@
 		4B5626122E71C45A0025F8A6 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5626112E71C45A0025F8A6 /* ProfileScreen.swift */; };
 		4BBD2E3B2E7F052200E246F6 /* TopTabViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD2E3A2E7F052200E246F6 /* TopTabViewScreen.swift */; };
 		4BBD2E3E2E7F053B00E246F6 /* HealthTipTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD2E3D2E7F053B00E246F6 /* HealthTipTabScreen.swift */; };
+		4BBD2E862E81CAE900E246F6 /* ExercisesTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD2E852E81CAE900E246F6 /* ExercisesTabScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		4B5626112E71C45A0025F8A6 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
 		4BBD2E3A2E7F052200E246F6 /* TopTabViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTabViewScreen.swift; sourceTree = "<group>"; };
 		4BBD2E3D2E7F053B00E246F6 /* HealthTipTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTipTabScreen.swift; sourceTree = "<group>"; };
+		4BBD2E852E81CAE900E246F6 /* ExercisesTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesTabScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +207,7 @@
 		4BBD2E392E7F050800E246F6 /* TopTabView */ = {
 			isa = PBXGroup;
 			children = (
+				4BBD2E842E81CABE00E246F6 /* Exercises */,
 				4BBD2E3C2E7F052700E246F6 /* HealthTip */,
 				4BBD2E3A2E7F052200E246F6 /* TopTabViewScreen.swift */,
 			);
@@ -217,6 +220,14 @@
 				4BBD2E3D2E7F053B00E246F6 /* HealthTipTabScreen.swift */,
 			);
 			path = HealthTip;
+			sourceTree = "<group>";
+		};
+		4BBD2E842E81CABE00E246F6 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				4BBD2E852E81CAE900E246F6 /* ExercisesTabScreen.swift */,
+			);
+			path = Exercises;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +313,7 @@
 				4BBD2E3B2E7F052200E246F6 /* TopTabViewScreen.swift in Sources */,
 				4B5625F72E6DD2450025F8A6 /* SettingsScreen.swift in Sources */,
 				4B5625C02E6A168C0025F8A6 /* OnboardingScreen.swift in Sources */,
+				4BBD2E862E81CAE900E246F6 /* ExercisesTabScreen.swift in Sources */,
 				4B5625D12E6A18BC0025F8A6 /* UIExtension.swift in Sources */,
 				4B5626122E71C45A0025F8A6 /* ProfileScreen.swift in Sources */,
 				4B5625EA2E6C80B90025F8A6 /* MobileNumberScreen.swift in Sources */,

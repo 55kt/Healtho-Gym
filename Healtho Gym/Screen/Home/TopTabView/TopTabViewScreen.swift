@@ -61,8 +61,6 @@ struct TopTabViewScreen: View {
                                         .shadow(radius: 2)
                                 }
                             }
-
-                            
                         }
                     }
                 }
@@ -72,7 +70,7 @@ struct TopTabViewScreen: View {
                 // Horizontal scrolling tabs indicators
                 TabView(selection: $selectTab) {
                     HealthTipTabScreen().tag(0)
-                    Text("Tab Content 1").tag(1)
+                    ExercisesTabScreen().tag(1)
                     Text("Tab Content 2").tag(2)
                     Text("Tab Content 3").tag(3)
                     Text("Tab Content 4").tag(4)
