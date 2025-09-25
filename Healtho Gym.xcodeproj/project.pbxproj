@@ -30,6 +30,8 @@
 		4BBD2E3B2E7F052200E246F6 /* TopTabViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD2E3A2E7F052200E246F6 /* TopTabViewScreen.swift */; };
 		4BBD2E3E2E7F053B00E246F6 /* HealthTipTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD2E3D2E7F053B00E246F6 /* HealthTipTabScreen.swift */; };
 		4BBD2E862E81CAE900E246F6 /* ExercisesTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD2E852E81CAE900E246F6 /* ExercisesTabScreen.swift */; };
+		4BF2DFC62E8590A100964EE0 /* ExercisesListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF2DFC52E8590A100964EE0 /* ExercisesListScreen.swift */; };
+		4BF2DFC82E8590B500964EE0 /* ExercisesDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF2DFC72E8590B500964EE0 /* ExercisesDetailsScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		4BBD2E3A2E7F052200E246F6 /* TopTabViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTabViewScreen.swift; sourceTree = "<group>"; };
 		4BBD2E3D2E7F053B00E246F6 /* HealthTipTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTipTabScreen.swift; sourceTree = "<group>"; };
 		4BBD2E852E81CAE900E246F6 /* ExercisesTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesTabScreen.swift; sourceTree = "<group>"; };
+		4BF2DFC52E8590A100964EE0 /* ExercisesListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesListScreen.swift; sourceTree = "<group>"; };
+		4BF2DFC72E8590B500964EE0 /* ExercisesDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesDetailsScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +230,8 @@
 			isa = PBXGroup;
 			children = (
 				4BBD2E852E81CAE900E246F6 /* ExercisesTabScreen.swift */,
+				4BF2DFC52E8590A100964EE0 /* ExercisesListScreen.swift */,
+				4BF2DFC72E8590B500964EE0 /* ExercisesDetailsScreen.swift */,
 			);
 			path = Exercises;
 			sourceTree = "<group>";
@@ -309,6 +315,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B5625F02E6CBD730025F8A6 /* NameScreen.swift in Sources */,
+				4BF2DFC62E8590A100964EE0 /* ExercisesListScreen.swift in Sources */,
+				4BF2DFC82E8590B500964EE0 /* ExercisesDetailsScreen.swift in Sources */,
 				4B04FCEA2E734FE10032C428 /* NotificationsScreen.swift in Sources */,
 				4BBD2E3B2E7F052200E246F6 /* TopTabViewScreen.swift in Sources */,
 				4B5625F72E6DD2450025F8A6 /* SettingsScreen.swift in Sources */,

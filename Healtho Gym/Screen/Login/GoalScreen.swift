@@ -10,6 +10,7 @@ import SwiftUI
 struct GoalScreen: View {
     //MARK: - Properties
     @State private var selectIndex: Int = 0
+    @State private var showHome: Bool = false
     @State private var listArr = [
         ["name" : "Fat Loss"],
         ["name" : "Weight Gain"],
@@ -48,7 +49,7 @@ struct GoalScreen: View {
                     }
                     
                     Button {
-                        // action
+                        showHome = true
                     } label: {
                         Text("DONE")
                             .font(.customfont(.semiBold, fontSize: 18))
@@ -67,6 +68,7 @@ struct GoalScreen: View {
                 .bottomWithSafe
             }
         }
+        .bgNavLink(content: TopTabViewScreen(), isAction: $showHome)
         .navHide
     }
 }
