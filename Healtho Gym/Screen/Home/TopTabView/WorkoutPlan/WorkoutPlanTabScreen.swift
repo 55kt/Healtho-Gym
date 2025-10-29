@@ -22,6 +22,9 @@ struct WorkoutPlanTabScreen: View {
             ScrollView {
                 VStack(spacing: 15) {
                     IconTitleSubtitleButton(icon: "search_circle", title: "Find a workout plan", subtitle: "Perfect Workout plan that fullfill your fitnes goal")
+                    {
+                        showFindPlan = true
+                    }
                     
                     Button {
                         //
@@ -36,7 +39,9 @@ struct WorkoutPlanTabScreen: View {
                     .cornerRadius(15)
                     .horizontal20
 
-                    IconTitleSubtitleButton(icon: "add_big", title: "Create new plan", subtitle: "Customize workout plans as per your need")
+                    IconTitleSubtitleButton(icon: "add_big", title: "Create new plan", subtitle: "Customize workout plans as per your need") {
+                        showCreatePlan = true
+                    }
                     
                     VStack(spacing: 8) {
                         SectionMoreButton(title: "Muscle Building") {
