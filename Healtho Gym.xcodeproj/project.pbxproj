@@ -27,6 +27,11 @@
 		4B5625F72E6DD2450025F8A6 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5625F62E6DD2450025F8A6 /* SettingsScreen.swift */; };
 		4B5626102E71C44C0025F8A6 /* SettingsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B56260F2E71C44C0025F8A6 /* SettingsRow.swift */; };
 		4B5626122E71C45A0025F8A6 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5626112E71C45A0025F8A6 /* ProfileScreen.swift */; };
+		4B97AB242EB24E0E00C4E4E8 /* WorkoutPlanTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B97AB232EB24E0E00C4E4E8 /* WorkoutPlanTabScreen.swift */; };
+		4B97AB262EB24E2E00C4E4E8 /* FindWorkoutPlanScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B97AB252EB24E2E00C4E4E8 /* FindWorkoutPlanScreen.swift */; };
+		4B97AB282EB24E4300C4E4E8 /* CreatePlanScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B97AB272EB24E4300C4E4E8 /* CreatePlanScreen.swift */; };
+		4B97AB2A2EB24FBD00C4E4E8 /* IconTitleSubtitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B97AB292EB24FBD00C4E4E8 /* IconTitleSubtitleButton.swift */; };
+		4B97AB2C2EB254AC00C4E4E8 /* SectionMoreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B97AB2B2EB254AC00C4E4E8 /* SectionMoreButton.swift */; };
 		4BBD2E3B2E7F052200E246F6 /* TopTabViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD2E3A2E7F052200E246F6 /* TopTabViewScreen.swift */; };
 		4BBD2E3E2E7F053B00E246F6 /* HealthTipTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD2E3D2E7F053B00E246F6 /* HealthTipTabScreen.swift */; };
 		4BBD2E862E81CAE900E246F6 /* ExercisesTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD2E852E81CAE900E246F6 /* ExercisesTabScreen.swift */; };
@@ -57,6 +62,11 @@
 		4B5625F62E6DD2450025F8A6 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
 		4B56260F2E71C44C0025F8A6 /* SettingsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRow.swift; sourceTree = "<group>"; };
 		4B5626112E71C45A0025F8A6 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		4B97AB232EB24E0E00C4E4E8 /* WorkoutPlanTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPlanTabScreen.swift; sourceTree = "<group>"; };
+		4B97AB252EB24E2E00C4E4E8 /* FindWorkoutPlanScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindWorkoutPlanScreen.swift; sourceTree = "<group>"; };
+		4B97AB272EB24E4300C4E4E8 /* CreatePlanScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePlanScreen.swift; sourceTree = "<group>"; };
+		4B97AB292EB24FBD00C4E4E8 /* IconTitleSubtitleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTitleSubtitleButton.swift; sourceTree = "<group>"; };
+		4B97AB2B2EB254AC00C4E4E8 /* SectionMoreButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionMoreButton.swift; sourceTree = "<group>"; };
 		4BBD2E3A2E7F052200E246F6 /* TopTabViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTabViewScreen.swift; sourceTree = "<group>"; };
 		4BBD2E3D2E7F053B00E246F6 /* HealthTipTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTipTabScreen.swift; sourceTree = "<group>"; };
 		4BBD2E852E81CAE900E246F6 /* ExercisesTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesTabScreen.swift; sourceTree = "<group>"; };
@@ -147,6 +157,8 @@
 			isa = PBXGroup;
 			children = (
 				4B5625D02E6A18BC0025F8A6 /* UIExtension.swift */,
+				4B97AB292EB24FBD00C4E4E8 /* IconTitleSubtitleButton.swift */,
+				4B97AB2B2EB254AC00C4E4E8 /* SectionMoreButton.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -208,9 +220,20 @@
 			path = Settings;
 			sourceTree = "<group>";
 		};
+		4B97AB222EB24DCC00C4E4E8 /* WorkoutPlan */ = {
+			isa = PBXGroup;
+			children = (
+				4B97AB232EB24E0E00C4E4E8 /* WorkoutPlanTabScreen.swift */,
+				4B97AB252EB24E2E00C4E4E8 /* FindWorkoutPlanScreen.swift */,
+				4B97AB272EB24E4300C4E4E8 /* CreatePlanScreen.swift */,
+			);
+			path = WorkoutPlan;
+			sourceTree = "<group>";
+		};
 		4BBD2E392E7F050800E246F6 /* TopTabView */ = {
 			isa = PBXGroup;
 			children = (
+				4B97AB222EB24DCC00C4E4E8 /* WorkoutPlan */,
 				4BBD2E842E81CABE00E246F6 /* Exercises */,
 				4BBD2E3C2E7F052700E246F6 /* HealthTip */,
 				4BBD2E3A2E7F052200E246F6 /* TopTabViewScreen.swift */,
@@ -315,7 +338,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B5625F02E6CBD730025F8A6 /* NameScreen.swift in Sources */,
+				4B97AB262EB24E2E00C4E4E8 /* FindWorkoutPlanScreen.swift in Sources */,
 				4BF2DFC62E8590A100964EE0 /* ExercisesListScreen.swift in Sources */,
+				4B97AB2C2EB254AC00C4E4E8 /* SectionMoreButton.swift in Sources */,
 				4BF2DFC82E8590B500964EE0 /* ExercisesDetailsScreen.swift in Sources */,
 				4B04FCEA2E734FE10032C428 /* NotificationsScreen.swift in Sources */,
 				4BBD2E3B2E7F052200E246F6 /* TopTabViewScreen.swift in Sources */,
@@ -325,11 +350,14 @@
 				4B5625D12E6A18BC0025F8A6 /* UIExtension.swift in Sources */,
 				4B5626122E71C45A0025F8A6 /* ProfileScreen.swift in Sources */,
 				4B5625EA2E6C80B90025F8A6 /* MobileNumberScreen.swift in Sources */,
+				4B97AB242EB24E0E00C4E4E8 /* WorkoutPlanTabScreen.swift in Sources */,
 				4B5625B62E6A16380025F8A6 /* Healtho_GymApp.swift in Sources */,
 				4B5625E82E6C7A840025F8A6 /* SignUpScreen.swift in Sources */,
+				4B97AB282EB24E4300C4E4E8 /* CreatePlanScreen.swift in Sources */,
 				4B5626102E71C44C0025F8A6 /* SettingsRow.swift in Sources */,
 				4B04FCE82E734FCE0032C428 /* ReminderScreen.swift in Sources */,
 				4B5625F42E6DCA080025F8A6 /* GoalScreen.swift in Sources */,
+				4B97AB2A2EB24FBD00C4E4E8 /* IconTitleSubtitleButton.swift in Sources */,
 				4B5625EE2E6C89200025F8A6 /* OTPScreen.swift in Sources */,
 				4BBD2E3E2E7F053B00E246F6 /* HealthTipTabScreen.swift in Sources */,
 			);

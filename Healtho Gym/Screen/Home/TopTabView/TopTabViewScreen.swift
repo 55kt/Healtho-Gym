@@ -71,7 +71,7 @@ struct TopTabViewScreen: View {
                 TabView(selection: $selectTab) {
                     HealthTipTabScreen().tag(0)
                     ExercisesTabScreen().tag(1)
-                    Text("Tab Content 2").tag(2)
+                    WorkoutPlanTabScreen().tag(2)
                     Text("Tab Content 3").tag(3)
                     Text("Tab Content 4").tag(4)
                     Text("Tab Content 4").tag(5)
